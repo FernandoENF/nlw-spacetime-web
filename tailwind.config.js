@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: 'var(--font-roboto)',
-        alt: 'var(--font-bai-jamjuree)'
+        alt: 'var(--font-bai-jamjuree)',
       },
       colors: {
         gray: {
@@ -47,7 +47,7 @@ module.exports = {
           700: '#039645',
           800: '#027435',
           900: '#025929',
-        }
+        },
       },
 
       fontSize: {
@@ -59,13 +59,13 @@ module.exports = {
       },
 
       backgroundImage: {
-        stripes: 'linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.1) 12.5%, transparent 12.5%, transparent )'
+        stripes:
+          'linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.1) 12.5%, transparent 12.5%, transparent )',
       },
 
       backgroundSize: {
-        stripes: '100% 8px'
-      }
-
+        stripes: '100% 8px',
+      },
     },
   },
   plugins: [],
